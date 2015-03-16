@@ -1,6 +1,6 @@
-# Ember-promises
+# Ember-promises-demo
 
-Code for [Ember Adelaide Meetup}(http://www.meetup.com/Ember-js-Adelaide/) talk on Promises.
+Code for [Ember Adelaide Meetup](http://www.meetup.com/Ember-js-Adelaide/) talk on Promises.
 
 ## Notes
 
