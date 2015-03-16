@@ -7,7 +7,7 @@ module.exports = function(environment) {
     contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
     firebase: 'https://ember-promises.firebaseio.com/',
     baseURL: '/',
-    locationType: 'auto',
+    locationType: 'hash', // required for serving statically from Firebase or similar
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

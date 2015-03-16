@@ -4,11 +4,15 @@ Code for [Ember Adelaide Meetup](http://www.meetup.com/Ember-js-Adelaide/) talk 
 
 ## Notes
 
+* Application is deployed to <https://ember-promises.firebaseapp.com>
+* The `seed` button will erase all of the data in the Firebase and re-seed it. There is no harm in doing this.
 * There are two debugger statements in the code for ember-cli-bootstrap that you will have to comment out if you want to use a debugger in the browser
   * `node_modules/ember-cli-bootstrap/app/helpers/test-breadcrumbs.js`
   * `node_modules/ember-cli-bootstrap/app/initializers/test-breadcrumbs.js`
 
-https://ember-promises.firebaseio.com/
+## Talk Reference URLs
+
+<https://ember-promises.firebaseio.com/>
 
 ## Corrections
 

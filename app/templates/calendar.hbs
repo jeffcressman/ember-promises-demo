@@ -1,0 +1,6 @@
+<h3>Events</h3>
+<ul class='list-group'>
+  {{#each event in model.events}}
+    <li class='list-group-item'><b>{{event.name}}</b>: {{event.displayDate}}</li>
+  {{/each}}
+</ul>

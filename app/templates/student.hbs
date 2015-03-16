@@ -1,0 +1,8 @@
+<h3>Calendars</h3>
+<ul class='list-group'>
+  {{#each calendar in model.calendars}}
+    {{#link-to 'calendar' calendar}}<li class='list-group-item'>{{calendar.name}}</li>{{/link-to}}
+  {{/each}}
+</ul>
+
+{{outlet}}
