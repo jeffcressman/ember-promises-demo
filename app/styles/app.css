@@ -1,0 +1,27 @@
+p {
+  font-size: 1.3em;
+}
+
+#title {
+  margin-left: -15px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+#viewer {
+  border-top: 1px solid #ccc;
+}
+
+#left {
+  padding-top: 20px;
+  padding-left: 0px;
+  border-right: 1px solid #ccc;
+  min-height: 960px;
+}
+
+#right {
+  padding-top: 20px;
+  min-height: 960px;
+  padding-right: 0px;
+  background-color: aliceblue;
+}
